@@ -8,7 +8,7 @@ from PIL import Image
 import numpy as np
 import streamlit as st
 
-model = load_model("/content/face-expression.keras")
+model = load_model("/content/drive/MyDrive/mymodel.keras")
 st.header("FACE EXPRESSION CLASSIFICATION")
 
 image_path = st.file_uploader("Choose a file", type=["jpg", "jpeg", "png"])
